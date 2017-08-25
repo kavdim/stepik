@@ -1,0 +1,11 @@
+#lesson 2
+X = int(input())
+H = int(input())
+M = int(input())
+value = X % 60 + M
+if value > 60:
+    print(X // 60 + H + 1)
+    print(value - 60)
+else:
+    print(X // 60 + H)
+    print(X % 60 + M)
