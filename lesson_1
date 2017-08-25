@@ -1,0 +1,4 @@
+# lesson 1
+value = int(input())
+print(value // 60)
+print(value % 60)
